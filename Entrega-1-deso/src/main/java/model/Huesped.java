@@ -1,10 +1,11 @@
 package model;
 
 import java.util.Date;
+import java.util.List;
 
 public class Huesped {
     private String apellido;
-    private String nombres;
+    private String nombre;
     private TipoDocumento tipoDocumento;
     private String numeroDocumento;
     private String cuit;
@@ -15,6 +16,16 @@ public class Huesped {
     private String email;
     private String ocupacion;
     private String nacionalidad;
+    private List<Estadia> estadias;
+    private List<Reserva> reservas;
+
+    public List<Estadia> getEstadias() {
+        return estadias;
+    }
+
+    public void setEstadias(List<Estadia> estadias) {
+        this.estadias = estadias;
+    }
 
     public String getApellido() {
         return apellido;
@@ -24,12 +35,12 @@ public class Huesped {
         this.apellido = apellido;
     }
 
-    public String getNombres() {
-        return nombres;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNombres(String nombres) {
-        this.nombres = nombres;
+    public void setNombre(String nombres) {
+        this.nombre = nombres;
     }
 
     public TipoDocumento getTipoDocumento() {
