@@ -1,5 +1,7 @@
 package model;
 
+import enums.PosicionIva;
+
 public class PersonaJuridica extends ResponsablePago{
     private String razonSocial;
     private String cuit;

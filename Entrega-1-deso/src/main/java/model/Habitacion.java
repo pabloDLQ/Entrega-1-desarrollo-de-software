@@ -1,5 +1,8 @@
 package model;
 
+import enums.EstadoHabitacion;
+import enums.TipoCama;
+
 import java.util.List;
 
 public class Habitacion {

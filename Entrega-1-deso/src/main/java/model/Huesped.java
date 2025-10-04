@@ -1,5 +1,8 @@
 package model;
 
+import enums.PosicionIva;
+import enums.TipoDocumento;
+
 import java.util.Date;
 import java.util.List;
 

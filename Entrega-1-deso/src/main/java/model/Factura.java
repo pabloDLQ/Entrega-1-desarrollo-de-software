@@ -1,5 +1,8 @@
 package model;
 
+import enums.EstadoFactura;
+import enums.TipoFactura;
+
 import java.util.List;
 
 public class Factura {

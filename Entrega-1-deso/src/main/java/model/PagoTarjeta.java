@@ -1,5 +1,8 @@
 package model;
 
+import enums.MarcaTarjeta;
+import enums.TipoTarjeta;
+
 import java.util.Date;
 
 public class PagoTarjeta extends MedioPago{

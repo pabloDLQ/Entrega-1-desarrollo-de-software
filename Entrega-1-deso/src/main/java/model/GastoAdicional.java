@@ -1,5 +1,7 @@
 package model;
 
+import enums.TipoGastoAdicional;
+
 public class GastoAdicional {
     private float precio;
     private String descripcion;

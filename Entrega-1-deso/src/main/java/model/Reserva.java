@@ -1,5 +1,7 @@
 package model;
 
+import enums.EstadoReserva;
+
 import java.util.Date;
 
 public class Reserva {

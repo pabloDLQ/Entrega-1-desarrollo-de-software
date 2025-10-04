@@ -1,5 +1,7 @@
 package model;
 
+import enums.TipoMoneda;
+
 import java.util.Date;
 
 public class Pago {
