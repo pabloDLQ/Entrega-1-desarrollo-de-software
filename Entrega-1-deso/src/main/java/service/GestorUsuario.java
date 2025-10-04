@@ -1,6 +1,6 @@
-package gestores;
+package service;
 
-import clases.Usuario;
+import model.Usuario;
 
 public class GestorUsuario {
     //todo: no estoy seguro si esto tendría que ser una interfáz o si la interfaz va en el dao, pero hay que poner alguna interfaz por ahi
